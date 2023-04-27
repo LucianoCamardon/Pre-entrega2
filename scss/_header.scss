@@ -1,0 +1,17 @@
+nav{
+    background-image: radial-gradient(rgb(216, 8, 8) , rgb(231, 62, 62) );
+    border-bottom: 3px solid black;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+nav div{justify-content: flex-end;}
+nav a:hover{
+    background-color: rgb(255, 67, 67);
+    font-weight: bolder;
+    transition: 0.3s all;
+    border: 1px solid black;
+    border-radius: 10px;
+    transform: scale(1.15, 1.15);
+}
+nav ul li a{margin-left: 10px;}
+ul{list-style: none;}

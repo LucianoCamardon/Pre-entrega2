@@ -1,69 +1,131 @@
-*{font-family: 'Dancing Script', cursive;}
-ul{list-style: none;}
-.iframeBorder{border: 2px solid black;}
+nav {
+  background-image: radial-gradient(rgb(216, 8, 8), rgb(231, 62, 62));
+  border-bottom: 3px solid black;
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
 
-h1{
-    text-align: center;
-    background-color: lightpink;
-    color: black;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    font-weight: bold;
-    margin-top: 1px;
-    margin-bottom: 1px;
+nav div {
+  justify-content: flex-end;
 }
-h2{
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    background-color: lightpink;
-    border-bottom: 2px solid black;
-}
-body{
-    background-image: url(../multimedia/fondoindex2.avif);
-    background-size: cover;
-}
-nav{
-    background-color: rgb(235, 31, 31); 
-    border-bottom: 3px solid black;
-    font-weight: bolder;
-    font-size: 1.4rem;
-}
-nav div{justify-content: flex-end;}
-nav a:hover{
-    background-color: rgb(255, 67, 67);
-    font-weight: bolder;
-    transition: 0.2s all;
-    border: 1px solid black;
-    border-radius: 10px;
-}
-nav ul li a{margin-left: 10px;}
-@media(min-width: 1200px){
-    section div{width: 90%;}
-    h5{font-weight: bold;}
-    section{display: flex; justify-content: center;}
-    form div{width: 50%;}
-    form{margin-left: 450px;}
-    nav{height: 60px;}
-}
-footer{
-    background-color:rgb(255, 169, 182);
-    border-top: 1px solid black;
-    display: flex;}
-footer div{text-align: center;}
-iframe{width: 99.8%;}
-footer ul img{
-    width: 10%;
-}
-/* página de contacto */
-label{
-    color: white;
-    font-size: 1.2rem;
-}
-form{text-align: center;}
-#mensajeContacto{height: 100px;}
-/* Vista móvil */
-@media(max-width:480px){
-    main img{height: 300px;}
 
+nav a:hover {
+  background-color: rgb(255, 67, 67);
+  font-weight: bolder;
+  transition: 0.3s all;
+  border: 1px solid black;
+  border-radius: 10px;
+  transform: scale(1.15, 1.15);
 }
+
+nav ul li a {
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.myCard {
+  height: 400px;
+}
+
+.imgContainer {
+  height: 500px;
+  width: 100%;
+}
+
+* {
+  font-family: "Dancing Script", cursive;
+}
+
+h1 {
+  text-align: center;
+  background-color: lightpink;
+  color: black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: lightpink;
+  border-bottom: 2px solid black;
+}
+
+body {
+  background-image: url(../multimedia/fondoindex2.avif);
+  background-size: cover;
+}
+
+.iframeBorder {
+  border: 2px solid black;
+}
+
+.footerGradiente {
+  background-image: linear-gradient(to top, white, rgb(252, 122, 122));
+}
+
+footer {
+  border-top: 1px solid black;
+  display: flex;
+}
+
+footer div {
+  text-align: center;
+}
+
+iframe {
+  width: 99.8%;
+}
+
+footer ul img {
+  width: 10%;
+}
+
+label {
+  color: white;
+  font-size: 1.2rem;
+}
+
+form {
+  text-align: center;
+}
+
+#mensajeContacto {
+  height: 100px;
+}
+
+@media (min-width: 1200px) {
+  section div {
+    width: 90%;
+  }
+  h5 {
+    font-weight: bold;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+  }
+  form div {
+    width: 50%;
+  }
+  form {
+    margin-left: 450px;
+  }
+  nav {
+    height: 65px;
+  }
+}
+@media (max-width: 480px) {
+  main img {
+    height: 300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
